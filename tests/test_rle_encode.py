@@ -22,9 +22,3 @@ import src.rle as rle
 def test_rle_encode(test_input: str, expected):
     """Tests for the rle_encode() function"""
     assert rle.encode(test_input) == expected
-
-
-# def test_rle_encode_empty_input():
-#     """Test the RLE encoding function using an empty string as input"""
-#     with pytest.raises(ValueError):
-#         rle.encode('')
